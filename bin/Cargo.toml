@@ -1,0 +1,8 @@
+[package]
+name = "semiluna"
+edition = "2021"
+
+[dependencies]
+crossterm = "0.27.0"
+lib = { path = "../lib" }
+mlua = { version = "0.9.7", features = ["luajit", "vendored", "macros"] }
